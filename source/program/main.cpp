@@ -21,7 +21,7 @@ extern "C" void exl_main(void* x0, void* x1) {
         Social_XboxLiveIdentity_isSignInInProgressHook::InstallAtOffset(0x23415B0);
         Social_XboxLiveUser_isInitialSignInCompleteHook::InstallAtOffset(0x265B348);
     }
-    else if (is_version("1.21.22")) {
+    else if (is_version("1.21.22") || is_version("1.21.23")) {
         Social_XboxLiveIdentity_isSignInInProgressHook::InstallAtOffset(0x23416E0);
         Social_XboxLiveUser_isInitialSignInCompleteHook::InstallAtOffset(0x265B518);
     }
