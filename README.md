@@ -7,7 +7,7 @@ I've made this because the login "gives up" after one minute before I can join m
 
 The project uses a different subsdk number ("subsdk8") to easily be used with other mods without changing file names.
 
-Currently supported version: 1.21.20, 1.21.21
+Currently supported version: 1.21.20, 1.21.21, 1.21.22, 1.21.23
 
 Pull requests for other versions are appreciated!
 
